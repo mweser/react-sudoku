@@ -1,7 +1,9 @@
 
 body {
-  font-family: "Helvetica Neue", sans-serif;
+  font-family: "Gill Sans", sans-serif;
   font-size: 19px;
+  background-color: #212121;
+  color: white;
 }
 
 h1 {
@@ -11,7 +13,7 @@ h1 {
 h1, p { text-align: center; }
 
 table.sudoku {
-  border: 3px solid #008A73;
+  border: 3px solid cyan;
   border-collapse: collapse;
   margin: 20px auto;
 }
@@ -19,7 +21,7 @@ table.sudoku {
 td {
   height: 2em;
   width: 2em;
-  border: 1px solid #CCC;
+  border: 1px solid ;
   text-align: center;
   outline: none;
 }
@@ -30,14 +32,16 @@ td input {
   border: none;
   text-align: center;
   outline: none;
+  background-color: #212121;
+  color: white;
 }
 
 td:nth-child(3n) {
-  border-right: 3px solid #008A73;
+  border-right: 3px solid cyan;
 }
 
 tr:nth-child(3n) {
-  border-bottom: 3px solid #008A73;
+  border-bottom: 3px solid cyan;
 }
 
 .buttons {
@@ -45,14 +49,15 @@ tr:nth-child(3n) {
 }
 
 button {
-  color: #3587B1;
+  color: black;
   border: none;
   font-size: 1em;
   padding: 10px;
   margin: 0px 5px;
-  background-color: white;
+  background-color: #212121;
+  color: white;
   display: inline-block;
-  border: 2px solid #3587B1;
+  border: 2px solid cyan;
   transition-property: all;
   transition-duration: 0.5s;
   cursor: pointer;
@@ -60,6 +65,6 @@ button {
 }
 
 button:hover {
-  color: white;
-  background-color: #3587B1;
+  color: black;
+  background-color: white;
 }
